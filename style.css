@@ -99,6 +99,7 @@ p {
 .change-btn a {
     font-weight: bolder;
     margin-left: 2em;
+    transition: opacity 200ms ease-in-out;
 }
 
 .submit-btn {
@@ -116,10 +117,12 @@ p {
      font-weight: bold;
      font-size: 1em;
      cursor: pointer;
+     transition: opacity 200ms ease-in-out;
+      
 }
 
 .submit:hover {
-    font-weight: 800;
+    opacity: .5;
 }
 
 .change-btn a:hover {
