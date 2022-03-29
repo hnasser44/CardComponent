@@ -31,8 +31,8 @@ body {
 .card-container {
     background-color: var(--Verypaleblue);
     border-radius: .5rem;
-    width: 90%;
-    height: 85%;
+    max-width: 80%;
+    height: auto;
     border-radius: 1em;
 
 }
@@ -44,8 +44,8 @@ body {
 
 @media screen and (min-width: 800px) {
      .card-container {
-          width: 30%;
-          height: 80%;
+          width: 40%;
+          height: auto;
      }
      .cancel {
          transform: translateY(-1em);
