@@ -153,3 +153,33 @@ p {
 .attribution a { 
     color: hsl(228, 45%, 44%); 
 }
+
+@media (max-width: 400px) {
+    body {
+         margin-top: 2em;
+    }
+    h1 {
+        font-size: 1.2em;
+    } 
+    p {
+        font-size: 0.9em;
+    }
+    .card-container {
+          width: 100%;
+          height: 90%;
+     }
+     .plan {
+        margin-left: 6em;
+     }
+     .change-btn {
+          transform: translateX(-80px);
+          font-size: .7em;
+     }
+     .annual-plan {
+          transform: translateX(-18px);
+     }
+     .cancel{
+          transform: translateY(-24px);
+          padding-left: 10px;
+     }
+}
